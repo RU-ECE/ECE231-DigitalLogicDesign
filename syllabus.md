@@ -15,6 +15,8 @@ You are expected to use real tools
 
 * Oscilloscopes/logic analyzers in the lab
 * Verilog (can be installed on your laptop, runs in the lab)
+  * [Vivado](https://www.xilinx.com/support/download.html) is the industry leader.
+    Their installer is horrible and requires a gigantic amount (60Gb+) of disk space. If you can, do it, but it is installed on machines in the computer labs. Everyone using Vivado has the same comment: it's awful, but it's the industry standard, so even though there are alternatives, you should have it and know it.
 * A CAD package
   * [Fritzing](https://fritzing.org/download/) is extremely easy.
     It is free, but they ask for money on the main site. We will try to have an easy download available for Window/Mac.
@@ -23,7 +25,7 @@ You are expected to use real tools
   * [KiCAD](https://www.kicad.org/download/)
   * Cadence is the industry leader, hardest to use and quite expensive. Rutgers has a license
 * Verilog, a language for defining logic circuits and generating large systems on an FPGA (Field Programmable Grid Array)
-  * [Vivado](https://www.xilinx.com/support/download.html) is the industry leader. Their installer is horrible and requires a gigantic amount (60Gb+) of disk space. If you can, do it, but it is installed on machines in the computer labs. Everyone using Vivado has the same comment: it's awful, but it's the industry standard, so even though there are alternatives, you should have it and know it.
+  
   * We will use vivado in this course to build some circuits for homework that build on your labs. You can build a 4-bit adder, but you cannot build a 64-bit real adder for a computer, you don't have the time or a board big enough. But in Vivado, that's easy.
 * [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) A tool for analog circuit analysis can also be used to draw circuits, and is something you should have in your toolbox, but is not required.
 
