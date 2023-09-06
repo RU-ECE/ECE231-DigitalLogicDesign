@@ -4,9 +4,7 @@
 * **Instructor:**  [Dov Kruger](https://RU-ECE/DovKrugerCourses/DovKrugerBio.md)
 * **[Meeting Times and Office hours](https://bit.ly/3ObwKEr)
 * **[Resources](https:github.com//RU-ece/DovKrugerCourses/DovKrugerBio.md)**
-* **[Course Web Address](https://github.com/RU-ECE/ECE451-Parallel)**
-** Prerequisites**
-  * 
+* **[Course Web Address](https://github.com/RU-ECE/ECE231-DigitalLogicDesign)**
 
 ## Hardware Requirements
 
