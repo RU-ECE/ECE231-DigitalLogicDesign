@@ -15,6 +15,7 @@ You are expected to use real tools
 
 * Oscilloscopes/logic analyzers in the lab
 * Verilog (can be installed on your laptop, runs in the lab)
+  * Verilog is a language for defining logic circuits and generating large systems on an FPGA (Field Programmable Grid Array)
   * [Vivado](https://www.xilinx.com/support/download.html) is the industry leader.
     Their installer is horrible and requires a gigantic amount (60Gb+) of disk space. If you can, do it, but it is installed on machines in the computer labs. Everyone using Vivado has the same comment: it's awful, but it's the industry standard, so even though there are alternatives, you should have it and know it.
 * A CAD package
@@ -23,9 +24,10 @@ You are expected to use real tools
     On Ubuntu Linux: sudo apt install fritzing
   * [Eagle](http://eagle.autodesk.com/eagle/software-versions/7) Free but bought by AutoCAD, increasingly money-grubby
   * [KiCAD](https://www.kicad.org/download/)
-  * Cadence is the industry leader, hardest to use and quite expensive. Rutgers has a license
-* Verilog, a language for defining logic circuits and generating large systems on an FPGA (Field Programmable Grid Array)
-  
+  * Big Industrial CAD
+    * Cadence. Rutgers has a license. Can you get a student license?
+    * [Altium](https://www.altium.com/education/student-licenses)
+
   * We will use vivado in this course to build some circuits for homework that build on your labs. You can build a 4-bit adder, but you cannot build a 64-bit real adder for a computer, you don't have the time or a board big enough. But in Vivado, that's easy.
 * [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) A tool for analog circuit analysis can also be used to draw circuits, and is something you should have in your toolbox, but is not required.
 
@@ -46,24 +48,28 @@ This course covers digital logic design
 ## Course Outcomes
 
 After completion of this course, students will be able to
-*  Design simple logic circuits to solve design problems.
-* 
-*  Use industry standard tools (Vivado)
+*  Design simple logic circuits to solve design problems
+*  Use industry standard tools (oscilloscopes, Vivado)
+*  Look up technical material to solve a problem
 
 ## FORMAT AND STRUCTURE
-* Classes include slides and live coding. You are encouraged to actively participate.
+* Lecture include slides and use of a CAD package and Vivado.
+* Recitations include hands on problem solving.
+* Labs give you hands on hardware practice.
+
+You are encouraged to actively participate.
 
 ## COURSE MATERIALS
 
 The textbook is: J. F. Wakerly, Digital Design Principles and Practices, 5th ed., Pearson, ISBN-13: 9780134460093.
 
 * All materials for this course are in the course repository: https://github.com/RU-ECE/ECE231-DigitalLogicDesign
-* Reference materials are available in the [ref directory]()
+* Reference materials are available in the ref directory under the main repo
 * Other Readings: 	Papers will be added to ref directory of repo
 
 ## COURSE REQUIREMENTS
 * **Attendance:**	Attendance is crucial for an effective learning but will not be graded. Your work will speak for itself.
-* **Homework:** 	Coding assignments will be submitted via canvas for individual single files, or via github.
+* **Homework:** 	Paper assignments, coding in vivado, labs.
 
 ## GRADING PROCEDURES
 Grades will be based on:
@@ -71,7 +77,7 @@ Grades will be based on:
 * Homeworks                                           ( 5%)
 * Group Homeworks                                     ( 5%)
 * Test 1                                              (20%)
-* Test 1                                              (20%)
+* Test 2                                              (20%)
 * Final Project or final exam                         (35%)
 * In class quizzes may be given for practice (no pressure)
 
