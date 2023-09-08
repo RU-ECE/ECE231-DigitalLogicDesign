@@ -85,7 +85,7 @@ Final Projects are only available to students doing very well who have demonstra
 If a final project is not sufficient to replace the final, you may be told to take the final anyway.
 
 [Grading Policies] (https://github.com/RU-ECE/DovKrugerCourses/grading.md)
-[Academic Honesty and Discipline] (https://github.com/RU-ECE/DovKrugerCourses/academichonesty.md)
+[Academic Honesty and Discipline] (https://github.com/hydrodog/RU-ECE-DovKrugerCourses/blob/main/integrity.md)
 
 ## IMPORTANT DATES
 * Test 1           ** 2023-TBD **
