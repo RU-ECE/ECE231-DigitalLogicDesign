@@ -1,7 +1,8 @@
 # Electrical Engineering Overview
 
-We are going to do a quick summary of electronic components this week to give you the background to do practical labs. We will not beat these topics to death, but whatever we do in the overview here will help you in your other ECE courses to place each component you study in detail into context.
+We are going to do a quick summary of electronic components this week to give you the background to do practical labs. We will not beat these topics to death, but whatever we do in the overview here will help you in your other ECE courses to place each component you study in detail into context. Please look at each link in this document, but you don't have to read the whole article. Just look at the basic statement of what it is, look at the picture so you know what it looks like, and get familiar with the schematic symbol. Your first homework of turning this document into a standalone quick reference guide will also get to know them better.
 
+Here's a class picture of a whole bunch of
 [electronic components]
 (https://en.wikipedia.org/wiki/Electronic_component)
 
@@ -14,10 +15,10 @@ This will help you understand the flow of electricity, but realize that the hydr
 
 ## Passive components
 
-* [Resistor]()
-* [Capacitor]()
-* [Inductor]()
-* [Electrolytic Capacitor]()
+* [Resistor](https://en.wikipedia.org/wiki/Resistor)
+* [Capacitor](https://en.wikipedia.org/wiki/Capacitor)
+* [Inductor](https://en.wikipedia.org/wiki/Inductor)
+* [Electrolytic Capacitor](https://en.wikipedia.org/wiki/Electrolytic_capacitor)
 
 ## Units
 
@@ -41,7 +42,7 @@ This will help you understand the flow of electricity, but realize that the hydr
 ## Important Equations 
 
 * Voltage across a resistor $V=I*R$
-* Power dissipated across a resistor $P=I^2*R$
+* Power dissipated across a resistor $P=IV=I^2*R$
 * 
 
 ## Components
