@@ -50,7 +50,7 @@ The magic of magnetism. Again, it doesn't matter if you understand everything at
 
 ## Components
 
-* [Cell](https://en.wikipedia.org/wiki/Electrochemical_cell) A single chemical cell that reacts to produce electriciy
+* [Cell](https://en.wikipedia.org/wiki/Electrochemical_cell) A single chemical cell that reacts to produce electricity
 * [Battery](https://en.wikipedia.org/wiki/Electric_battery) (Multiple cells put together)
 * [light](https://en.wikipedia.org/wiki/Incandescent_light_bulb) Edison's lightbulb, a device that puts out a lot of heat and a little (10%) light
 * [diode]() one-way valve for electricity
