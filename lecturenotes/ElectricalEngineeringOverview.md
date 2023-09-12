@@ -8,9 +8,12 @@ Here's a class picture of a whole bunch of
 
 Please watch the following videos before the next class
 [Hydraulic analogy](https://www.youtube.com/watch?v=Lvp_a_JkD2o&list=PLaqfpQcOfMt6K5A2CauGxL5Y75hzld7-D)
-This will help you understand the flow of electricity, but realize that the hydraulic analogy is not perfect, electricity flow is not the same as water flow.
+This will help you understand the flow of electricity, but realize that the hydraulic analogy is not perfect, electricity flow is not the same as water flow. We will go over the differences in class.
 
+[Electroboom on Capacitors](https://www.youtube.com/watch?v=rbCXKhhzBN0) Let me know if you fully understand this video on how capacitors store charge. Even if you don't at first, he's way more entertaining than me.
 
+[Electroboom on inductors](https://www.youtube.com/watch?v=ySx84Ca7BFQ)
+The magic of magnetism. Again, it doesn't matter if you understand everything at first, you will learn something, and have fun.
 
 
 ## Passive components
@@ -70,17 +73,48 @@ There are more components that we can leave off for now. Feel free to look them 
 
 TBD!
 
+## Differences between Electricity and hydraulics
+
+The hydraulic analogy helps us understand electricity classically, but it is limited and can give you some misconceptions. Here are some differences so you can remember that electricity isn't the same as water.
+
+1. When you put water into a pipe under pressure, it all comes out the other end. But when you put electricity in a wire, the electrons don't all move.
+   * Only the outer valence electrons are involved
+   * Only about 1 in a million of them are involved
+   * If more than that are getting energized, you have so much electricity you are melting the copper wire
+   * Think of electricity more as energy travelling through the medium of electrons, just like an ocean wave is energy travelling through the medium of water.
+   * You can observe a big wave in the pacific move thousands of miles, eventually breaking as it hits Australia. The individual molecules of water move a little bit and hit each other, but the water doesn't move to Australia.
+   * At the low level, electrons aren't hitting each other like atoms of water. Modern physics is way more complicated than that, and beyond me. So this is as far as I go with the analogy.
+
 ## Series and Parallel
 
-TBD!
+In other courses you will go over this a lot more. Derive the math probably. Here we will just state the rules.
 
+* Resistors in series add
+  TBD: schematic here
+* Resistors in parallel: $R_{eq}=1/(1/R_1 + 1/R_2)$
+* Capacitors are the reverse. Capacitors in parallel add
+TBD: schematic here
+* Capacitors in series: $C_{eq}=1/(1/C_1 + 1/C_2)$
+* Batteries in series add voltages. Analogy: Pump water up 10 feet, have another pump to pump the water up another 10 feet. Net, each parcel of water is 20 feet higher, and when it drops the energy per unit of water is higher.
+* Batteries in parallel add current. Analogy: If one pump can put 10 gallons/sec on a fire, then two pumps can put 20 gallons/sec. 
+
+## Energy
+
+We will review the energy in various situations to give you an intuitive feel for what it means. Electricity is invisible, you can't smell it, so it's hard to visualize. Hopefully this helps you.
+
+* A 1 liter bottle of water has a mass of 1kg. Lifting it in earth gravity through 1m takes 10J.
+* 60 mph is approximate 30 m/s. A small car is about 1 metric ton, or 1000kg. So a car moving at 30m/s has an energy of $E=1/2mv^2=0.5*1000*30^2=450kJ$. So if you're thinking what is 450kJ like, it's like getting hit by a car at 60mph.
+* A discarding sabot tank round might only weigh 10kg, but it moves at 1000m/s, so it has enough energy to punch through a tank's armor and go right out the other side. $E=1/2mv^2=0.5*10*1000^2=5MJ$. So a sabot round is like getting hit by 11 cars on a spot the size of a quarter.
+* Capacitors have units in Farads. A Farad is big. A reasonable electrolytic capacitor might be 560&mu;F or $560 x 10^{-6}F$. If it's rated for 200V, it could kill you by stopping your heart, but it's not a lot of energy. It's not going to blow you apart. $E=1/2CV^2 = 0.5*560*10^{-6}*200^2=11.2J$ So about the same amount of energy as lifting that bottle of water 1m.
+* On the other hand, a 10F capacitor the size of a bucket sitting quietly in a lab rated for 1000V, that could have an energy of $E=1/2CV^2=0.5*10*1000^2 = 5MJ$. That's like getting hit by the tank shell. Electricity is a very strong force, just get a test drive in a Tesla and you will feel it!
+* On a side note, to give you a sense of why nuclear energy is so powerful, think of the charges in the nucleus. They are all positive, repelling each other, and the distances are very very tiny. So the forces are enormous. How is it that the protons in the nucleus of each atom in your body aren't blowing apart? Because they are being held by even stronger forces, the "weak" force and the strong force. Those may only operate at very small distances, but they are stronger. So burning 1kg of coal gives you heat, but if you extracted the uranium and thorium which are 1 or 2 parts per million in that coal and put it in a nuclear reactor, it has more energy than all the coal.
 ## Electrical Danger
 
 What do you have to know not to kill yourself with electricity? How can electricity harm you? Under what situations are you safe?
 
-1. Watch the Video "It's not the volts that will kill you, it's the amps." It's better if you make sure you know what voltage and current is first.
+1. Watch the Video ["It's not the volts that will kill you, it's the amps."](https://www.youtube.com/watch?v=8xONZcBJh5A&t=3s). It's better if you make sure you know what voltage and current is first.
 2. Current goes through the easiest path, so if you are in a [Faraday cage](https://en.wikipedia.org/wiki/Faraday_cage) (like a car) a lightning strike will go around you.
-3. Enough electricity through a wire can make it vaporize, so even if it doesn't go through you, the energy in electricity
+3. Enough electricity through a wire can make it vaporize, so even if it doesn't go through you, the energy in electricity can get you burnt. Or perhaps you have had an encounter with an electric stove?
 4. A capacitor is a device to store electrical energy, analogous to a container which can be pressurized. Take a large steel container, or even a tire, and pressurize it until it explodes, and you can be badly hurt. A capacitor is like that, on steroids. We will go into this in class for the safety summary. You will never do this in our lab, but in the future, you could. So you should know that any capacitor could be holding charge and be at rated voltage. So if a capacitor says 200V, even if it's not connected to any electricity, it could still contain enough to potentially kill you, and should always be discharged carefully (and preferably slowly, it can weld metal, see "fun with ultracapacitors"). We will do the math in class, it's impressive how much energy these can have.
 5. An inductor is a coil of wire, and when current is passed through it, a magnetic field is created. If you suddenly drop the voltage to zero, all that energy has to come out. The equation is:
 
@@ -90,7 +124,7 @@ so if dt is near zero, the voltage can theoretically go to infinity. In practice
 
 With low voltage 6V, you can feel it tickle but it can't hurt you unless electrodes are inside your body. Your skin is the main resistance.
 
-24V starts to really hurt, particularly if your skin is wet and anything over 50V can be lethal. Most important is where the current goes. If it goes through your heart it can stop it.
+24V starts to really hurt, particularly if your skin is wet and anything over 50V can be lethal though most healthy adults could survive getting shocked with 120V as long as it doesn't go through your heart. Most important is where the current goes. If it goes through your heart it can stop it.
 
 In this course, the maximum we use is 24V from our power supplies. The digital logic is all 5V and can't hurt at all. But you have to treat the lab equipment with respect. We won't be playing with big capacitors or inductors. The warnings about those are mostly so you don't get a false sense of security and think you can safely play with a TV that is unplugged, not realizing that a capacitor inside is charged.
 
