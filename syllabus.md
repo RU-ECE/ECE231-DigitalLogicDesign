@@ -88,6 +88,11 @@ If a final project is not sufficient to replace the final, you may be told to ta
 [Grading Policies] (https://github.com/RU-ECE/DovKrugerCourses/grading.md)
 [Academic Honesty and Discipline] (https://github.com/RU-ECE/DovKrugerCourses/blob/main/integrity.md)
 
+## Policies
+If you are absent, please contact the [official school website](https://studentsupport.rutgers.edu/services/absence-and-verification-notices#:~:text=In%20these%20circumstances%2C%20it%20is,not%20%22excuse%22%20missed%20work).
+You can also notify the TA, ask on discord what you missed. Please do not email me asking for a private tutorial.
+Students who ignore this will receive a warning the first time. Then a negative mark.
+
 ## IMPORTANT DATES
 * Test 1           ** 2023-TBD **
 * Test 2           ** 2023-TBD **
