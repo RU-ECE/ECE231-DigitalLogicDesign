@@ -66,6 +66,7 @@ The textbook is: J. F. Wakerly, Digital Design Principles and Practices, 5th ed.
 * All materials for this course are in the course repository: https://github.com/RU-ECE/ECE231-DigitalLogicDesign
 * Reference materials are available in the ref directory under the main repo
 * Other Readings: 	Papers will be added to ref directory of repo
+* Large binary files can be downloaded from the authors, but in some cases are [cached here](https://rutgersconnect-my.sharepoint.com/:f:/g/personal/dk1261_soe_rutgers_edu/EkMiTNUmwaBEnmkMRVPhw0kBKaDcID4oEwuASp46O2WWZw?e=C1Svcl)
 
 ## COURSE REQUIREMENTS
 * **Attendance:**	Attendance is crucial for an effective learning but will not be graded. Your work will speak for itself.
