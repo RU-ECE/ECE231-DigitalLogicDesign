@@ -1,9 +1,12 @@
-[<img src="RULogo.webp" alt="Rutgers University](https://www.ece.rutgers.edu/)
+<a href="www.ece.rutgers.edu">
+<img src="assets/RULogo.webp" alt="Rutgers ECE" width="100">
+</a>
+
 # ECE-231 Digital Logic Design
 * 2023 Fall
-* **Instructor:**  [Dov Kruger](https://RU-ECE/DovKrugerCourses/DovKrugerBio.md)
-* **[Meeting Times and Office hours](https://bit.ly/3ObwKEr)
-* **[Resources](https:github.com//RU-ece/DovKrugerCourses/DovKrugerBio.md)**
+* **Instructor:**  [Dov Kruger](https://www.ece.rutgers.edu/Dov-Kruger)
+* **[Meeting Times and Office hours](https://bit.ly/3ObwKEr)**
+* **[Resources](ref)**
 * **[Course Web Address](https://github.com/RU-ECE/ECE231-DigitalLogicDesign)**
 
 ## Hardware Requirements
@@ -19,6 +22,7 @@ You are expected to use real tools
   * [Vivado](https://www.xilinx.com/support/download.html) is the industry leader.
     Their installer is horrible and requires a gigantic amount (60Gb+) of disk space. If you can, do it, but it is installed on machines in the computer labs. Everyone using Vivado has the same comment: it's awful, but it's the industry standard, so even though there are alternatives, you should have it and know it.
 * A CAD package
+  * [CircuitLab (Rutgers has a license)](https://circuitlab.com)
   * [Fritzing](https://fritzing.org/download/) is extremely easy.
     It is free, but they ask for money on the main site. We will try to have an easy download available for Window/Mac.
     On Ubuntu Linux: sudo apt install fritzing
@@ -35,8 +39,10 @@ You are expected to use real tools
 
 This course covers digital logic design
 
+* Rapid introduction to circuits so you can build them in labs
 * Introduction to DLD, logic circuit hardware and software implementation examples.
 * Number systems and binary arithmetic.
+* Encoding data in bits (ASCII and Unicode text)
 * Analysis and synthesis of combinational circuits, Karnaugh maps, timing hazards.
 * Encoders, decoders, multiplexers, demultiplexers.
 * Arithmetic systems, comparators, adders, multipliers.
@@ -74,13 +80,11 @@ The textbook is: J. F. Wakerly, Digital Design Principles and Practices, 5th ed.
 
 ## GRADING PROCEDURES
 Grades will be based on:
-* Labs                                                (15%)
-* Homeworks                                           ( 5%)
-* Group Homeworks                                     ( 5%)
+* Homeworks (individual and group)                    (20%)
 * Test 1                                              (20%)
 * Test 2                                              (20%)
-* Final Project or final exam                         (35%)
-* In class quizzes may be given for practice (no pressure)
+* Final exam                                          (40%)
+* In class quizzes may be given for practice (no pressure) but if you do not attend, you can get a zero
 
 Final Projects are only available to students doing very well who have demonstrated interest in going beyond.
 If a final project is not sufficient to replace the final, you may be told to take the final anyway.
@@ -90,10 +94,15 @@ If a final project is not sufficient to replace the final, you may be told to ta
 
 ## Policies
 If you are absent, please contact the [official school website](https://studentsupport.rutgers.edu/services/absence-and-verification-notices#:~:text=In%20these%20circumstances%2C%20it%20is,not%20%22excuse%22%20missed%20work).
-You can also notify the TA, ask on discord what you missed. Please do not email me asking for a private tutorial.
+
+Feel free to drop in for office hours and ask any question.
+
+You can also notify the TA, ask on discord what you missed. 
+
+Please do not email me asking for a private tutorial if you don't attend class.
 Students who ignore this will receive a warning the first time. Then a negative mark.
 
 ## IMPORTANT DATES
-* Test 1           ** 2023-TBD **
-* Test 2           ** 2023-TBD **
-* Final Exam       ** 2023-TBD **
+* Test 1           ** 2023-10-19 **
+* Test 2           ** 2023-11- **
+* Final Exam       ** 2023-12-22 **
