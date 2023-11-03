@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/dkruger/git/ru/ECE231-DigitalLogicDesign/verilog/project_2/project_2.srcs/sim_1/new/adder_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_tb
+ERROR: [VRFC 10-4982] syntax error near 'not' [/home/dkruger/git/ru/ECE231-DigitalLogicDesign/verilog/project_2/project_2.srcs/sim_1/new/adder_tb.sv:15]
+ERROR: [VRFC 10-8549] Verilog 2000 keyword 'not' used in incorrect context [/home/dkruger/git/ru/ECE231-DigitalLogicDesign/verilog/project_2/project_2.srcs/sim_1/new/adder_tb.sv:15]
+WARNING: [VRFC 10-2096] empty statement in sequential block [/home/dkruger/git/ru/ECE231-DigitalLogicDesign/verilog/project_2/project_2.srcs/sim_1/new/adder_tb.sv:15]
+ERROR: [VRFC 10-2939] 'logic' is an unknown type [/home/dkruger/git/ru/ECE231-DigitalLogicDesign/verilog/project_2/project_2.srcs/sim_1/new/adder_tb.sv:10]
+ERROR: [VRFC 10-8530] module 'adder_tb' is ignored due to previous errors [/home/dkruger/git/ru/ECE231-DigitalLogicDesign/verilog/project_2/project_2.srcs/sim_1/new/adder_tb.sv:9]
