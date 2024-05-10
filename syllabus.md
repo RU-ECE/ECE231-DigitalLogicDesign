@@ -84,7 +84,7 @@ Grades will be based on:
 * Test 1                                              (20%)
 * Test 2                                              (20%)
 * Final exam                                          (40%)
-* In class quizzes may be given for practice (no pressure) but if you do not attend, you can get a zero
+* In class attendance quizzes may be given for practice (no pressure) but if you do not attend, you can get a zero
 
 Final Projects are only available to students doing very well who have demonstrated interest in going beyond.
 If a final project is not sufficient to replace the final, you may be told to take the final anyway.
@@ -99,7 +99,7 @@ Feel free to drop in for office hours and ask any question.
 
 You can also notify the TA, ask on discord what you missed. 
 
-Please do not email me asking for a private tutorial if you don't attend class.
+Please do not email me asking for a private tutorial if you don't attend class. You may always come to office hours and ask questions, that's what office hours are for.
 Students who ignore this will receive a warning the first time. Then a negative mark.
 
 ## IMPORTANT DATES
