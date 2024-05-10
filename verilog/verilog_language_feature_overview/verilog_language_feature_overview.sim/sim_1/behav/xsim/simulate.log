@@ -1,0 +1,35 @@
+Time resolution is 1 ps
+bit1 = 0
+
+a=         123
+
+b= fa0a1f00
+
+c= 01001001100101100000001011010010
+
+d= 00000162d9e499ad
+
+sbits= 3fff
+
+ubits= 01111
+
+f1= 1.234568
+
+f2= 602200000000000027262976.000000
+
+f3= inf
+
+f4= -inf
+
+f5= -nan
+
+specifying digits: f5=  -nan
+
+d1= 1.234568
+
+d2= -nan
+
+d3= inf
+
+d4= -nan
+

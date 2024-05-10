@@ -7,23 +7,46 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
+/*
+a   b    c_in   s    c_out
+0   0   0       0    0
+0   0   1       1    0
+0   1   0       1    0
+0   1   1       0    1
+1   0   0       1    0
+1   0   1       0    1
+1   1   0       0    1
+1   1   1       1    1
+
+
+*/
 //good practice: always name module same as filename
 module adder(
-    input wire a, b, c_in, clock;
-    output reg c_out;
+    input wire a,
+    input wire b,
+    input wire c_in,
+    input wire clock,
+    input wire reset_n,
+    input wire enable,
+    output reg c_out,
+    output reg s,
+    output reg data_valid
     );
     
     always @(posedge clock or negedge reset_n) begin
-    if (!reset_n) begin         //always use begin..end defensively
-        c_out <= 1'h0;       // note non-blocking assign!
-    end
+        if (!reset_n) begin         //always use begin..end defensively
+            c_out <= 1'b0;       // note non-blocking assign!
+            data_valid <= 1'b0;
+            s <= 1'b0;
+        end
 
-    else begin
-        data_valid <= 1'b0;
-        if (enable)  begin
-            output_c <= input_a ^ input_b;
-            data_valid <= 1'b1;
+        else begin
+            data_valid <= 1'b0;
+            if (enable)  begin
+                s <= a ^ b ^ c_in;
+                c_out <= ((a^b) & c_in) | (a&b);
+                data_valid <= 1'b1;
+            end
         end
     end
-
 endmodule
