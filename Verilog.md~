@@ -1,0 +1,25 @@
+# Verilog
+
+Verilog is a Hardware Description Language (HDL)
+
+* Derived from C family
+* uses ; to end lines {} to group
+* IEEE Standard 1364
+
+VHDL is another one (derived from Ada)
+
+HDLs can be used for a number of purposes
+
+* Design hardware and simulate it
+* Program FPGA boards
+    * Field Programmable Grid Array
+    * FPGA are slower than pre-built circuits
+    * FPGAs are popular on high end (RADAR)
+    * low end (custom logic on traffic light)
+    * Much lower power/compute ratio
+* Custom ASIC - built in factory, faster
+
+* Bespoke Processing/Processors
+
+* RTL Register Transfer Language
+* 

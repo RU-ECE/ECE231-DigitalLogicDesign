@@ -3,7 +3,7 @@
 </a>
 
 # ECE-231 Digital Logic Design
-* 2023 Fall
+* 2024 Fall
 * **Instructor:**  [Dov Kruger](https://www.ece.rutgers.edu/Dov-Kruger)
 * **[Meeting Times and Office hours](https://bit.ly/3ObwKEr)**
 * **[Resources](ref)**
@@ -16,11 +16,14 @@ that can be remotely accessed via web if necessary.
 
 You are expected to use real tools
 
-* Oscilloscopes/logic analyzers in the lab
+* DMM, logic probe, Oscilloscope/logic analyzers in the lab
 * Verilog (can be installed on your laptop, runs in the lab)
   * Verilog is a language for defining logic circuits and generating large systems on an FPGA (Field Programmable Grid Array)
-  * [Vivado](https://www.xilinx.com/support/download.html) is the industry leader.
-    Their installer is horrible and requires a gigantic amount (60Gb+) of disk space. If you can, do it, but it is installed on machines in the computer labs. Everyone using Vivado has the same comment: it's awful, but it's the industry standard, so even though there are alternatives, you should have it and know it.
+  * [Icarus iverilog]()
+    - [Windows](https://bleyer.org/icarus/)
+    - [Instructions for Mac](https://ee.sonoma.edu/resources/computer-hardware-and-software/icarus-and-gtkwave-mac)
+  * [Optional: Vivado](https://www.xilinx.com/support/download.html) is the industry leader.
+    Their installer is horrible and requires a gigantic amount (60GB-135GB) of disk space. If you can, do it, but it is installed on machines in the computer labs. Everyone using Vivado has the same comment: it's awful, but it's the industry standard, so even though there are alternatives, you should have it and know it. You don't need it for this class though.
 * A CAD package
   * [CircuitLab (Rutgers has a license)](https://circuitlab.com)
   * [Fritzing](https://fritzing.org/download/) is extremely easy.
@@ -32,7 +35,7 @@ You are expected to use real tools
     * Cadence. Rutgers has a license. Can you get a student license?
     * [Altium](https://www.altium.com/education/student-licenses)
 
-  * We will use vivado in this course to build some circuits for homework that build on your labs. You can build a 4-bit adder, but you cannot build a 64-bit real adder for a computer, you don't have the time or a board big enough. But in Vivado, that's easy.
+  * We will use icarus verilog in this course to build some circuits for homework that build on your labs. You can build a 4-bit adder, but you cannot build a 64-bit real adder for a computer, you don't have the time or a board big enough. But with verilog, it is far easier allowing you to do more digital logic design than you could do physically.
 * [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) A tool for analog circuit analysis can also be used to draw circuits, and is something you should have in your toolbox, but is not required.
 
 ## COURSE DESCRIPTION
@@ -75,7 +78,7 @@ The textbook is: J. F. Wakerly, Digital Design Principles and Practices, 5th ed.
 * Large binary files can be downloaded from the authors, but in some cases are [cached here](https://rutgersconnect-my.sharepoint.com/:f:/g/personal/dk1261_soe_rutgers_edu/EkMiTNUmwaBEnmkMRVPhw0kBKaDcID4oEwuASp46O2WWZw?e=C1Svcl)
 
 ## COURSE REQUIREMENTS
-* **Attendance:**	Attendance is crucial for an effective learning but will not be graded. Your work will speak for itself.
+* **Attendance:**	Attendance is crucial for an effective learning. We will collect in-class work to encourage attendance. Without attendance, curving will not be applied. If you get an A without attending, good for you but don't complain if you don't show effort.
 * **Homework:** 	Paper assignments, coding in vivado, labs.
 
 ## GRADING PROCEDURES
@@ -84,7 +87,8 @@ Grades will be based on:
 * Test 1                                              (20%)
 * Test 2                                              (20%)
 * Final exam                                          (40%)
-* In class attendance quizzes may be given for practice (no pressure) but if you do not attend, you can get a zero
+* In class attendance quizzes may be given for practice (no pressure) but if you do not attend, you can get a zero. Up to 2 in-class work missed will not affect your grade. More will result in your final grade not being curved.
+* Missing many in-class work may result in you being asked to come in for a makeup session, which will be graded.
 
 Final Projects are only available to students doing very well who have demonstrated interest in going beyond.
 If a final project is not sufficient to replace the final, you may be told to take the final anyway.
