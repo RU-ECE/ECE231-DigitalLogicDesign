@@ -9,8 +9,5 @@ module and_thing(
   input wire b,
   output reg out);
   always @ *  
-//  assign out = a & b; // bitwise AND
-  out = a & b; // bitwise AND  blocking
-//  out <= a & b; // bitwise AND  non-blocking
-  
+  out = a & b; // bitwise AND 
 endmodule

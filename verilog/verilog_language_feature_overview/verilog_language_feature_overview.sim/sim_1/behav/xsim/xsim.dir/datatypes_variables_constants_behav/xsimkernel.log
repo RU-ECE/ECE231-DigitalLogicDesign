@@ -1,0 +1,7 @@
+Running: xsim.dir/datatypes_variables_constants_behav/xsimk -simmode gui -wdb datatypes_variables_constants_behav.wdb -simrunnum 0 -socket 39743
+Design successfully loaded
+Design Loading Memory Usage: 23480 KB (Peak: 24088 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 109316 KB (Peak: 162748 KB)
+Simulation CPU Usage: 10 ms
