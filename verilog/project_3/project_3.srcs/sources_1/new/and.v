@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 1ns / 1ns
 //////////////////////////////////////////////////////////////////////////////////
 // Author: Dov Kruger
 // 
@@ -9,5 +9,8 @@ module and_thing(
   input wire b,
   output reg out);
   always @ *  
-  out = a & b; // bitwise AND
+//  assign out = a & b; // bitwise AND
+  out = a & b; // bitwise AND  blocking
+//  out <= a & b; // bitwise AND  non-blocking
+  
 endmodule
