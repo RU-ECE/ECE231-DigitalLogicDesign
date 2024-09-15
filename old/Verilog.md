@@ -68,7 +68,7 @@ HDLs can be used for a number of purposes
   * standard 1364-2001 supported 2s complement (signed) numbers
   * Verilog 2005 (1364-2005)
   * 2009: System Verilog
-  * We will use System verilog for the testbench certainly.
+  * We will use System verilog
   
 ## Language Features
 
@@ -88,6 +88,9 @@ a
 UPPERCASE
 snake_case_is_legal
 camelCaseIsLegal
+abc123
+a123
+a_lot_of_$$$
 ```
 
 * Keywords
