@@ -40,7 +40,7 @@ Key terms
 */
 ```
 
-### Identifiers
+## Identifiers
 
 * A name for something in a program
 * Named entities include
@@ -50,7 +50,13 @@ Key terms
   * starts with letter or underscore
   * may continue with letter, underscore, $ or digit
 
- 
+## Example
+
+```cpp
+
+```
+
+
 
 
 

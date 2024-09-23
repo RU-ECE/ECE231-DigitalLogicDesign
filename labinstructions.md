@@ -6,14 +6,16 @@
 
 ## Grading
 
-Pre-lab:       20% (except first lab)
-Lab:           45% (TA checks off that you did the work)
-Clean Station:  5% (TA checks that your station has not been left in a bad state)
-Post lab:      30%
+* Pre-lab:       20% (except first lab)
+* Lab:           45% (TA checks off that you did the work)
+* Clean Station:  5% (TA checks that your station has not been left in a bad state)
+* Post lab:      30%
 
 Each lab has a pre-lab report. It is due before you arrive in lab. It will be collected electronically (on canvas).
 
 Please read the lab in advance, and prepare by learning whatever material you need.
+
+If you intend to use your own computer for verilog programming, then you have been told for weeks to install icarus verilog (compact, and works on Mac) or Xilinx (the industry leader, and you should eventually learn this regardless)
 
 ## Verilog
 
@@ -25,14 +27,17 @@ For coding in verilog, you are allowed to use Icarus verilog (a command line too
 Once you have installed them, you have to add the commands to the PATH in your computer. Assuming that is done, here are the commands needed:
 
 ```verilog
-`timescale 1ns/10ps
+`timescale 1ns/1ps
 module simplefunc_tb;
   reg a, b;
   initial begin
+  // the first two lines must be this!
      $dumpfile ("simplefunc_tb.vcd");
-     $dumpvars(1, stimulus.call); 
+     $dumpvars(0, simplefunc_tb); 
      a = 1;
      b = 0;
+
+// the last two lines terminate the simulation
      #200
        $finish;
   end
@@ -49,18 +54,26 @@ endmodule
     - if you don't, the simulation will continue to run, using all your hard drive.
     - In class, I demonstrated that in 10 seconds, it used 150MB. You can always delete the file, but you could easily run out of space and crash if you are careless.
 
+For icarus verilog, get into a *command line*
+
 ```bash
+# compile the program in the command line
 iverilog simplefunc_tb.sv -o simplefunc
-# the name of this file depends on what you wrote in the .sv file, see example
-vvp      simplefunc_tb.vcd # name ideally matches the name of the verilog program
+
+# run the program
+./simplefunc   #on Mac or Linux
+simplefunc     #on Windows
+
+# run the graphics (filename matches $dump)
 gtkwave  simplefunc_tb.vcd # run and display the simulation
 ```
 
-After running gtkwave, you will need to click on the - to zoom out to see the full timescale. If you selected 1ns, you should probably zoom out so full scale is about 100ns to start.
+After running gtkwave, you will need to:
+* click on the - to zoom out to see the full timescale. If you selected 1ns, you should probably zoom out so full scale is about 100ns to start.
+* double click on the variables to graph
 
 
-
-You may also install Xilinx Vivado. Vivado is the industry standard, big and complicated, and the undisputed best development tool. It takes a minimum of 45GB to install, and it is already installed on all the computers in ECE105 if you want to run there.
+You are also encouraged to install Xilinx Vivado (does not work on MacOSX) or use it in the lab ECE105. Vivado is the industry standard, big and complicated, and the undisputed best development tool. It takes a minimum of 45GB to install.
 
 Vivado works on Windows and Linux (not MacOSX)
 It is also available in ECE105 on all the computers in the lab.
