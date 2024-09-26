@@ -2,7 +2,7 @@
  Author: Dov Kruger
  Example of a 2:1 one-bit mux
 */
-module mux2to1_8bit(
+module mux_2to1(
     input wire  a,
     input wire  b,
     input wire sel,

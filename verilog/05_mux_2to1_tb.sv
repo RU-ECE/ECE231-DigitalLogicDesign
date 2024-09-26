@@ -1,15 +1,16 @@
 /*
  Author: Dov Kruger
+ cite: no help
  Example of a 2:1 one-bit mux
  The output y = either a or b depending on the selector input sel
  if sel = 0 then y = a otherwise y = b
  */
-module mux2_8bit_tb;
+module mux_2to1_tb;
    logic a, b;
    logic sel;
    wire  y;
 
-   mux2to1_8bit uut( .a(a), .b(b), .sel(sel), .y(y) );
+   mux_2to1 uut( .a(a), .b(b), .sel(sel), .y(y) );
 
    initial begin
       $monitor("At time %0t, a = %h, b = %h, sel = %h, y = %h", $time, a, b, sel, y);
@@ -21,4 +22,5 @@ module mux2_8bit_tb;
    #5
    $finish;
 end
+   
 endmodule
