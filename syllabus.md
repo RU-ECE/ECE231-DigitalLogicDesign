@@ -107,6 +107,6 @@ Please do not email me asking for a private tutorial if you don't attend class. 
 Students who ignore this will receive a warning the first time. Then a negative mark.
 
 ## IMPORTANT DATES
-* Test 1           ** 2023-10-19 **
-* Test 2           ** 2023-11- **
-* Final Exam       ** 2023-12-22 **
+* Test 1           ** see announcements **
+* Test 2           ** see announcements **
+* Final Exam       ** 2024-12-17 **
