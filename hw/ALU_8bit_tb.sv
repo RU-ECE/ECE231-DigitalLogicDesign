@@ -13,9 +13,9 @@ module ALU_8bit_tb();
     op_str[2] = "and";
     op_str[3] = "or ";
     op_str[4] = "xor";
-    op_str[5] = "not";
-    op_str[6] = "shl";
-    op_str[7] = "shr";
+    op_str[5] = "not"; // A
+    op_str[6] = "shl"; // A shl B[2:0]
+    op_str[7] = "shr"; // A shl B[2:0]
     a = 13;
     b = 37;
     op = 0;
