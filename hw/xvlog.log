@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dkruger/git/ru/tmp/ECE231-DigitalLogicDesign/hw/ALU_8bit.sv" into library work
+INFO: [VRFC 10-311] analyzing module ALU_8bit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dkruger/git/ru/tmp/ECE231-DigitalLogicDesign/hw/ALU_8bit_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module ALU_8bit_tb
