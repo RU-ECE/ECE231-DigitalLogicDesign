@@ -27,7 +27,7 @@ module ALU64_tb();
     test_operation(64'hFFFFFFFFFFFFFFFF, 1, 1, 64'hFFFFFFFFFFFFFFFE); // sub
     test_operation(4, 5, 2, 20); // mul 4*5=20
     test_operation(3000000, 2000000, 2, 6000000000000); // mul (64 bit numbers are huge!)
-    test_operation(64'h123456789ABCDEF0, 64'hFEDCBA9876543210, 3, 64'h11111110DC3A9144); // and
+    test_operation(64'h123456789ABCDEF0, 64'hFEDCBA9876543210, 3, 64'h1214121812141210); // and
     test_operation(64'h5A5A5A5A5A5A5A5A, 64'hA5A5A5A5A5A5A5A5, 3, 0); // and
     test_operation(32'h5A5A5A5A, 32'hA5A5A5A5, 4, 64'h00000000FFFFFFFF); // or
     test_operation(32'h12345678, 64'h12345679, 5, 64'h0000000000000001); // xor
