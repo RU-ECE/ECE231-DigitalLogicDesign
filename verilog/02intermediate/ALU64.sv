@@ -2,8 +2,8 @@ module ALU64(
     input wire[63:0] a,
     input wire[63:0] b,
     input wire[3:0] op,
-    output reg[63:0] result
-    input wire clk,
+    output reg[63:0] result,
+    input wire clk
     );
 
     always @(posedge clk) begin
