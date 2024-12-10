@@ -25,5 +25,5 @@ module ALU64(
         4'hE:result = 0;
         4'hF:result = 0;
         endcase
-
-    end 
+    end
+endmodule
