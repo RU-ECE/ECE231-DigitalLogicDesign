@@ -1,6 +1,6 @@
 /*
  Author: _________JOHN ALLEN IV______________
- cite: ___________CHATGPT/Google AI/Class Notes_____________
+ cite: ___________CHATGPT/Google/Notes_____________
  */
 nput wire[63:0] a,
     input wire[63:0] b,
