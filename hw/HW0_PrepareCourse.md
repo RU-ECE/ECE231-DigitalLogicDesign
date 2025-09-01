@@ -7,7 +7,7 @@ If you have a Mac, Vivado will not install, so you will have to use
 
 1. Install the following software:
    - Xilinx Vivado (Windows, Linux) If you have a Mac, you will have to use the vlab (ECE105) and learn to login. Note, you can use the vlab remotely. You will have to create an account.
-   - [Instructions on Installing Vivado]()
+   - [Instructions on Installing Vivado](https://rutgers.box.com/s/oefc0asy9xekwxs947kdoisw8hq9ja5f)
    - [Instructions on using the vlab](https://vlab.rutgers.edu/)
       Note that vlab gives you a computer to use, but when you log out your storage is gone. So you must write your results to a memory stick if you are in person, or email to yourself. This is inconvenient, so if at all possible I recommend installing on your computer.
 1. Install Icarus Verilog. This works on Windows, MacOS (with work)
