@@ -2,8 +2,8 @@ module ALU64(
     input wire[63:0] a,
     input wire[63:0] b,
     input wire[3:0] op,
-    output reg[63:0] result
-    input wire clk,
+    output reg[63:0] result,
+    input wire clk
     );
 
     always @(posedge clk) begin
@@ -25,5 +25,5 @@ module ALU64(
         4'hE:result = 0;
         4'hF:result = 0;
         endcase
-
-    end 
+    end
+endmodule
