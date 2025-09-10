@@ -7,7 +7,9 @@ use in this course. Optional tools are listed so you know areas
 that will help you grow, but which you do not have to immediately
 work on.
 
-* [fritzing](https://rutgersconnect-my.sharepoint.com/:f:/r/personal/dk1261_soe_rutgers_edu/Documents/ECE231-DigitalLogicDesign?csf=1&web=1&e=L5R9op) This is a baby CAD package, particularly advantageous because is shows you a view of a breadboard so you can virtually set up circuits even before you get to lab. You can go quite far with this, but it's good to learn a more industrial CAD package when you can.
+* [Directory containing all software](https://rutgers.box.com/s/fk46grwr38cpuoyu3o7thwbk2379cwo3) (some for windows and Mac)
+* [fritzing for PC](https://rutgers.box.com/s/xzia4qlp5pu3kqhedi28mww8b1zkwgyx)
+  [fritzing for Mac](https://rutgers.box.com/s/gvhypglldi0fq2cbpvcahmgwdjzzb417) This is a baby CAD package, particularly advantageous because is shows you a view of a breadboard so you can virtually set up circuits even before you get to lab. You can go quite far with this, but it's good to learn a more industrial CAD package when you can.
 
 * [Tinkercad](https://www.tinkercad.com/circuits)
 This is roughly equivalent to fritzing but online. If you cannot install fritzing, you may use TinkerCAD instead.
