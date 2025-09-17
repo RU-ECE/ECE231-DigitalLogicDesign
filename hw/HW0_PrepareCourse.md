@@ -14,6 +14,8 @@ If you have a Mac, Vivado will not install, so you will have to use
  and Linux.
    - [Icarus Verilog on MacOS](https://ee.sonoma.edu/current-students/resources/how-install-icarus-and-gtkwave-mac)
    - [Icarus Verilog on Windows](https://bleyer.org/icarus/)
+   - [Tutorial: installing iverilog Windows](IcarusVerilogInstallationGuide.pdf)
+   - [Tutorial: installing Vivado Windows](VivadoInstallationGuide.docx)
 1. Get ready to use a CAD package to draw your circuits. Your choices are:
    - [Use TinkerCAD, a web-based CAD package, free from Autodesk](https://www.tinkercad.com/) *do this first*
    - [KiCAD (much more sophisticated, open source)](https://www.kicad.org/download/)
