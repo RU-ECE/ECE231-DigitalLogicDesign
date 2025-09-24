@@ -18,7 +18,7 @@ If Terminal asks for permissions make sure to allow/accept.
 
 5. If the Terminal requests XCode Tools to be installed, accept and allow it access.
 
-6. Once Brew has finished installing, there are additional instructions that need to be ran manually. Copy and paste the given commands as needed.
+6. Once Brew has finished installing, there are additional commands that need to be ran manually. Copy and paste the given commands as needed.
 
 7. If all goes well, then running ``brew`` in Terminal should yield example usage. If you're having trouble, double check there are no errors and rerun the installation process.
 
