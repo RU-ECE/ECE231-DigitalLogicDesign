@@ -12,10 +12,11 @@ If you have a Mac, Vivado will not install, so you will have to use
       Note that vlab gives you a computer to use, but when you log out your storage is gone. So you must write your results to a memory stick if you are in person, or email to yourself. This is inconvenient, so if at all possible I recommend installing on your computer.
 1. Install Icarus Verilog. This works on Windows, MacOS (with work)
  and Linux.
-   - [Icarus Verilog on MacOS](https://ee.sonoma.edu/current-students/resources/how-install-icarus-and-gtkwave-mac)
+   - Icarus Verilog + gtkwave on MacOS
+      - [Tutorial: installing iverilog + gtkwave macOS](IcarusVerilogInstallationGuide-macOS.md)
    - [Icarus Verilog on Windows](https://bleyer.org/icarus/)
-   - [Tutorial: installing iverilog Windows](IcarusVerilogInstallationGuide.pdf)
-   - [Tutorial: installing Vivado Windows](VivadoInstallationGuide.docx)
+      - [Tutorial: installing iverilog Windows](IcarusVerilogInstallationGuide.pdf)
+      - [Tutorial: installing Vivado Windows](VivadoInstallationGuide.docx)
 1. Get ready to use a CAD package to draw your circuits. Your choices are:
    - [Use TinkerCAD, a web-based CAD package, free from Autodesk](https://www.tinkercad.com/) *do this first*
    - [KiCAD (much more sophisticated, open source)](https://www.kicad.org/download/)
