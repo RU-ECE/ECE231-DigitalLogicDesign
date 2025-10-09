@@ -1,21 +1,27 @@
-`timescale  1ns/100ps
-
+`timescale  1ns/1ns
 module hw02_tb;
-  logic [7:0] a,b;
-  logic [1:0] op;
-  logic [7:0] out;
-  `include "common.svh"
+    logic [7:0] a, b, out;
+    logic [1:0] op;
 
-  ALU_8bit uut(.a(a), .b(b), .op(op), .out(out));
+    int fd;
 
-  initial begin
-    load_file("hw02.txt");
-    for (int i = 0; i < 4; i++) begin
-        a = read_8bit();
-        b = read_8bit();
-        op = read_8bit();
-        #1;
-        $display("a=%b, b=%b, op=%b, out=%b", a, b, op, out);        
+    ALU_8bit uut(
+        .a(a),
+        .b(b),
+        .op(op),
+        .out(out)
+    );
+
+    initial begin
+        fd = $fopen("hw02.txt", "r");
+
+        for (int i = 0; i < 4; i++) begin
+            void'($fscanf(fd, "%b\n", a));
+            void'($fscanf(fd, "%b\n", b));
+            void'($fscanf(fd, "%b\n", op));
+            #1; $display("a=%b, b=%b, op=%b, out=%b", a, b, op, out);
+        end
+        $fclose(fd);
+        $finish;
     end
-  end
 endmodule
