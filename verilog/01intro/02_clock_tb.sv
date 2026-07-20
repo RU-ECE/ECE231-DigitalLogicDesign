@@ -8,9 +8,6 @@ module clock_tb;
     $dumpvars(0, clock_tb);
     a = 1;
     b = 0;
-    c = 0;
-    #5
-    a = 0;
     #200
       $finish;
   end
