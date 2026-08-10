@@ -1,5 +1,5 @@
 /*
-  Author: Dov Kruger
+  Author: Andy Yang
   Cite: Dov Kruger told me exactly what to do 
 */
 module ALU_8bit(
@@ -11,10 +11,10 @@ module ALU_8bit(
 
 always @(*) begin
   case (op)
-    2'b00: out = 0; // replace with AND
-    2'b01: out = 0; // replace with OR
-    2'b10: out = 0; // replace with add
-    2'b11: out = 0; // replace with NOT A
+    2'b00: out = a & b; // replace with AND
+    2'b01: out = a | b; // replace with OR
+    2'b10: out = a + b; // replace with add
+    2'b11: out = ~a; // replace with NOT A
     default: out = 8'bx; // optional safety
   endcase
 end
