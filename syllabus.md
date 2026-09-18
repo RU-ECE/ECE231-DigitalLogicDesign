@@ -25,9 +25,8 @@ You are expected to use real tools
   * [Optional: Vivado](https://www.xilinx.com/support/download.html) is the industry leader.
     Their installer is horrible and requires a gigantic amount (60GB-135GB) of disk space. If you can, do it, but it is installed on machines in the computer labs. Everyone using Vivado has the same comment: it's awful, but it's the industry standard, so even though there are alternatives, you should have it and know it. You don't need it for this class though.
 * A CAD package
-  * [CircuitLab (Rutgers has a license)](https://circuitlab.com)
-  * [Fritzing](https://fritzing.org/download/) is extremely easy.
-    It is free, but they ask for money on the main site. We will try to have an easy download available for Window/Mac.
+  * Tinkercad is extremely easy.
+  * [Fritzing]([https://fritzing.org/download/](https://drive.google.com/drive/u/1/folders/1nlb4ZKfr9ESgoeYIBsycOp9hjW5lHMkz)) is good but the new version is crashing.
     On Ubuntu Linux: sudo apt install fritzing
   * [Eagle](http://eagle.autodesk.com/eagle/software-versions/7) Free but bought by AutoCAD, increasingly money-grubby
   * [KiCAD](https://www.kicad.org/download/)
