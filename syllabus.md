@@ -3,8 +3,8 @@
 </a>
 
 # ECE-231 Digital Logic Design
-* 2024 Fall
-* **Instructor:**  [Dov Kruger](https://www.ece.rutgers.edu/Dov-Kruger)
+* 2026 Fall
+* **Instructor:**  [Dov Kruger](https://www.ece.rutgers.edu/Dov-Kruger) and Soudeh Yaghouti
 * **[Meeting Times and Office hours](https://bit.ly/3ObwKEr)**
 * **[Resources](ref)**
 * **[Course Web Address](https://github.com/RU-ECE/ECE231-DigitalLogicDesign)**
@@ -83,10 +83,11 @@ The textbook is: J. F. Wakerly, Digital Design Principles and Practices, 5th ed.
 
 ## GRADING PROCEDURES
 Grades will be based on:
-* Homeworks (individual and group)                    (20%)
-* Test 1                                              (20%)
-* Test 2                                              (20%)
-* Final exam                                          (40%)
+* Homeworks                                           (5%)
+* Programming Homework                                (10%)
+* In-class work                                       (10%)
+* Test 1 & 2                                          (37.5%)
+* Final exam                                          (37.5%)
 * In class attendance quizzes may be given for practice (no pressure) but if you do not attend, you can get a zero. Up to 2 in-class work missed will not affect your grade. More will result in your final grade not being curved.
 * Missing many in-class work may result in you being asked to come in for a makeup session, which will be graded.
 
