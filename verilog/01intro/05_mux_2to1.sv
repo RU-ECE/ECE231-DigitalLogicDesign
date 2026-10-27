@@ -10,8 +10,10 @@ module mux_2to1(
 );
 
 always @(*) begin
-   if (sel) y = a;
-   else y = b;
+   if (sel)
+     y = a;
+   else
+     y = b;
 end
 
 endmodule

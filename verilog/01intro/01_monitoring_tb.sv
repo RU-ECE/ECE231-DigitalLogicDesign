@@ -4,8 +4,9 @@ module first_example;
   reg a, b;
   wire result;
   assign result = a & b; // AND gate
-
+  wire y; // disconnected
   initial begin
+    $display("%b", y);
     $monitor("Time = %0t : a = %b, b = %b, result = %b", $time, a, b, result);
     a = 0; b = 0;
     #10 a = 0; b = 1;
