@@ -3,8 +3,8 @@
 </a>
 
 # ECE-231 Digital Logic Design
-* 2024 Fall
-* **Instructor:**  [Dov Kruger](https://www.ece.rutgers.edu/Dov-Kruger)
+* 2026 Fall
+* **Instructor:**  [Dov Kruger](https://www.ece.rutgers.edu/Dov-Kruger) and Soudeh Yaghouti
 * **[Meeting Times and Office hours](https://bit.ly/3ObwKEr)**
 * **[Resources](ref)**
 * **[Course Web Address](https://github.com/RU-ECE/ECE231-DigitalLogicDesign)**
@@ -25,9 +25,8 @@ You are expected to use real tools
   * [Optional: Vivado](https://www.xilinx.com/support/download.html) is the industry leader.
     Their installer is horrible and requires a gigantic amount (60GB-135GB) of disk space. If you can, do it, but it is installed on machines in the computer labs. Everyone using Vivado has the same comment: it's awful, but it's the industry standard, so even though there are alternatives, you should have it and know it. You don't need it for this class though.
 * A CAD package
-  * [CircuitLab (Rutgers has a license)](https://circuitlab.com)
-  * [Fritzing](https://fritzing.org/download/) is extremely easy.
-    It is free, but they ask for money on the main site. We will try to have an easy download available for Window/Mac.
+  * Tinkercad is extremely easy.
+  * [Fritzing]([https://fritzing.org/download/](https://drive.google.com/drive/u/1/folders/1nlb4ZKfr9ESgoeYIBsycOp9hjW5lHMkz)) is good but the new version is crashing.
     On Ubuntu Linux: sudo apt install fritzing
   * [Eagle](http://eagle.autodesk.com/eagle/software-versions/7) Free but bought by AutoCAD, increasingly money-grubby
   * [KiCAD](https://www.kicad.org/download/)
@@ -83,10 +82,11 @@ The textbook is: J. F. Wakerly, Digital Design Principles and Practices, 5th ed.
 
 ## GRADING PROCEDURES
 Grades will be based on:
-* Homeworks (individual and group)                    (20%)
-* Test 1                                              (20%)
-* Test 2                                              (20%)
-* Final exam                                          (40%)
+* Homeworks                                           (5%)
+* Programming Homework                                (10%)
+* In-class work                                       (10%)
+* Test 1 & 2                                          (37.5%)
+* Final exam                                          (37.5%)
 * In class attendance quizzes may be given for practice (no pressure) but if you do not attend, you can get a zero. Up to 2 in-class work missed will not affect your grade. More will result in your final grade not being curved.
 * Missing many in-class work may result in you being asked to come in for a makeup session, which will be graded.
 
